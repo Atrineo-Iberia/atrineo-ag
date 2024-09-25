@@ -1,11 +1,9 @@
 <template>
-  <div class="w-screen">
+  <div class="flex flex-col min-h-screen">
     <Header />
-    <NuxtPage />
+    <main class="flex-grow">
+      <NuxtPage />
+    </main>
     <Footer />
   </div>
 </template>
-
-<script setup>
-
-</script>

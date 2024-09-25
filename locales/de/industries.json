@@ -1,0 +1,27 @@
+{
+  "industries": "Branchen",
+  "energy": {
+    "title": "Energie",
+    "description": "Der Übergang zu grüner und erneuerbarer Energie ist der Schlüssel für eine nachhaltige Gesellschaft. Um dieses Ziel zu erreichen, unterstützen wir Projekte in verschiedenen Bereichen der Energieinnovation, wie Wasserstoff-Energiesysteme, Langzeitspeichertechnologien und effiziente Wärmeverteilungsnetze."
+  },
+  "life_sciences": {
+    "title": "Biowissenschaften",
+    "description": "Fortschritte in den Biowissenschaften revolutionieren das Gesundheitswesen und die Landwirtschaft, verbessern die Lebensqualität und fördern die Nachhaltigkeit."
+  },
+  "chemistry": {
+    "title": "Chemie",
+    "description": "Innovationen in der Chemie führen zu neuen Materialien und nachhaltigen Prozessen, die die Produktsicherheit und -effizienz verbessern. Graphen-Innovation, Mikrofasern und innovative Membranen sind einige Beispiele für Bereiche, in denen wir Partner bei Innovationsaktivitäten unterstützt haben."
+  },
+  "health": {
+    "title": "Gesundheit",
+    "description": "Technologische Fortschritte im Gesundheitswesen haben die Kraft, die medizinische Versorgung zu transformieren, indem sie Patientenergebnisse verbessern, frühzeitige Krankheitserkennung ermöglichen, personalisierte Behandlungen fördern und den Zugang zur Gesundheitsversorgung verbessern."
+  },
+  "material_sciences": {
+    "title": "Materialwissenschaften",
+    "description": "Materialwissenschaften treiben neue Anwendungen in verschiedenen Branchen voran. Wir haben an Projekten zu Graphen-Nanomaterialien, Leichtbauverbundwerkstoffen sowie neuartigen Membranen und Polymeren gearbeitet."
+  },
+  "informatics": {
+    "title": "Informatik & KI",
+    "description": "Fortschritte in der Informatik und künstlichen Intelligenz transformieren Industrien, indem sie intelligentere, effizientere Abläufe ermöglichen und Innovation fördern. Derzeit entwickelt Atrineo AG interne KI-Lösungen, um KI-gestützte WTT-Aktivitäten weiter voranzutreiben."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "industries": "Industries",
+  "energy": {
+    "title": "Energy",
+    "description": "Transitioning to green and renewable energy is key for a sustainable society. To achieve this objective, we support projects in multiple domain of energy innovation, such as hydrogen energy systems, long-term storage technologies, and efficient heat distribution networks."
+  },
+  "life_sciences": {
+    "title": "Life Sciences",
+    "description": "Advancements in life sciences revolutionize healthcare and agriculture, improving quality of life and sustainability."
+  },
+  "chemistry": {
+    "title": "Chemistry",
+    "description": "Innovations in chemistry lead to new materials and sustainable processes, enhancing product safety and efficiency. Graphene innovation, microfibers, and innovative membranes are a few examples of areas we supported partners in innovation activities."
+  },
+  "health": {
+    "title": "Health",
+    "description": "Technological advancements in health have the power to transform medical care, improving patient outcomes, enabling early disease detection, personalized treatment, and better healthcare accessibility."
+  },
+  "material_sciences": {
+    "title": "Material Sciences",
+    "description": "Material sciences drive new applications across industries. We have worked on projects in graphene nanomaterials, lightweight composites, and novel membranes and polymers."
+  },
+  "informatics": {
+    "title": "Informatics & AI",
+    "description": "Advancements in informatics and artificial intelligence are transforming industries by enabling smarter, more efficient operations and fostering innovation. Currently, Atrineo AG is developing in-house AI solutions to further advance AI-powered KTT activities."
+  }
+}
