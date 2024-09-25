@@ -12,6 +12,8 @@ import newsEN from './locales/en/news.json'
 import newsDE from './locales/de/news.json'
 import footerEN from './locales/en/footer.json'
 import footerDE from './locales/de/footer.json'
+import policyEN from './locales/en/policy.json'
+import policyDE from './locales/de/policy.json'
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -24,7 +26,8 @@ export default defineI18nConfig(() => ({
       ...industriesEN,
       ...achievementsEN,
       ...newsEN,
-      ...footerEN
+      ...footerEN,
+      ...policyEN
     },
     de: {
       ...menuDE,
@@ -33,7 +36,8 @@ export default defineI18nConfig(() => ({
       ...industriesDE,
       ...achievementsDE,
       ...newsDE,
-      ...footerDE
+      ...footerDE,
+      ...policyDE
     }
   }
 }))

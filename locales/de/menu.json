@@ -1,7 +1,9 @@
 {
-  "home": "Startseite",
-  "services": "Services",
-  "about": "About",
-  "news": "News",
-  "contact": "Kontakt"
+  "menu": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "news": "Neuigkeiten",
+    "contact": "Kontakt"
+  }
 }

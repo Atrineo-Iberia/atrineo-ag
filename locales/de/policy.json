@@ -1,0 +1,77 @@
+{
+  "impressum": {
+    "title": "Impressum",
+    "company_info": "Atrineo AG<br>Kaiserstraße 118<br>D - 76133 Karlsruhe<br><br>Telefon: +49 721 920979-0<br>E-Mail: info@atrineo.com",
+    "board_members": "Vertretungsberechtigter Vorstand:<br>Dr. Rüdiger Werp, Dipl.-Ing. Nestor Rodriguez",
+    "registration_info": "Registergericht: Amtsgericht Mannheim<br>Registernummer: HRB 719548",
+    "vat_info": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>DE 294547773",
+    "responsible_content": "Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:<br>Dr. Rüdiger Werp, Dipl.-Ing. Nestor Rodriguez (Anschrift wie oben)",
+    "legal_notice_title": "Rechtlicher Hinweis",
+    "legal_notice_1": "Im Hinblick auf die technischen Eigenschaften des Internet kann keine Gewähr für die Authentizität, Richtigkeit und Vollständigkeit der im Internet zur Verfügung gestellten Informationen übernommen werden. Es wird auch keine Gewähr für die Verfügbarkeit oder den Betrieb der gegenständlichen Webseite und ihrer Inhalte übernommen.",
+    "legal_notice_2": "Jede Haftung für unmittelbare, mittelbare oder sonstige Schäden, unabhängig von deren Ursachen, die aus der Benutzung oder Nichtverfügbarkeit der Daten und Informationen dieser Homepage erwachsen, wird, soweit rechtlich zulässig, ausgeschlossen.",
+    "legal_notice_3": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.",
+    "legal_notice_4": "Der Inhalt dieser Webseite ist urheberrechtlich geschützt. Verlinkungen auf unsere Webseite sind herzlich willkommen!"
+  },
+  "privacy_policy": {
+    "title": "Datenschutzerklärung",
+    "last_updated": "Zuletzt aktualisiert: {date}",
+    "introduction": "Diese Datenschutzerklärung beschreibt unsere Richtlinien und Verfahren zur Erhebung, Verwendung und Offenlegung Ihrer Informationen, wenn Sie den Dienst nutzen, und informiert Sie über Ihre Datenschutzrechte und darüber, wie das Gesetz Sie schützt.<br><br>Wir verwenden Ihre personenbezogenen Daten, um den Dienst bereitzustellen und zu verbessern. Durch die Nutzung des Dienstes stimmen Sie der Erhebung und Verwendung von Informationen gemäß dieser Datenschutzerklärung zu.",
+    "interpretation_and_definitions": "Auslegung und Definitionen",
+    "interpretation": "Auslegung",
+    "interpretation_text": "Die Wörter, deren Anfangsbuchstabe großgeschrieben ist, haben unter den folgenden Bedingungen definierte Bedeutungen. Die folgenden Definitionen haben die gleiche Bedeutung, unabhängig davon, ob sie im Singular oder im Plural erscheinen.",
+    "definitions": "Definitionen",
+    "definitions_intro": "Für die Zwecke dieser Datenschutzerklärung:",
+    "definitions_list": {
+      "account": {
+        "term": "Konto",
+        "definition": "bezeichnet ein einzigartiges Konto, das für Sie erstellt wurde, um auf unseren Dienst oder Teile unseres Dienstes zuzugreifen."
+      },
+      "affiliate": {
+        "term": "Verbundenes Unternehmen",
+        "definition": "bezeichnet ein Unternehmen, das eine Partei kontrolliert, von ihr kontrolliert wird oder mit ihr unter gemeinsamer Kontrolle steht, wobei \"Kontrolle\" den Besitz von 50% oder mehr der Aktien, Beteiligungen oder anderen Wertpapiere bedeutet, die zur Wahl von Direktoren oder anderen leitenden Autoritäten berechtigt sind."
+      },
+      "company": {
+        "term": "Unternehmen",
+        "definition": "(in dieser Vereinbarung als \"das Unternehmen\", \"Wir\", \"Uns\" oder \"Unser\" bezeichnet) bezieht sich auf Atrineo AG, Kaiserstrasse 118, 76133 - Karlsruhe."
+      },
+      "cookies": {
+        "term": "Cookies",
+        "definition": "sind kleine Dateien, die von einer Website auf Ihrem Computer, Mobilgerät oder einem anderen Gerät platziert werden und die Details Ihres Browserverlaufs auf dieser Website sowie viele andere Verwendungszwecke enthalten."
+      },
+      "country": {
+        "term": "Land",
+        "definition": "bezieht sich auf Deutschland"
+      },
+      "device": {
+        "term": "Gerät",
+        "definition": "bezeichnet jedes Gerät, das auf den Dienst zugreifen kann, wie z.B. ein Computer, ein Mobiltelefon oder ein digitales Tablet."
+      },
+      "personal_data": {
+        "term": "Personenbezogene Daten",
+        "definition": "sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen."
+      },
+      "service": {
+        "term": "Dienst",
+        "definition": "bezieht sich auf die Website."
+      },
+      "service_provider": {
+        "term": "Dienstleister",
+        "definition": "bezeichnet jede natürliche oder juristische Person, die die Daten im Auftrag des Unternehmens verarbeitet. Es bezieht sich auf Drittunternehmen oder Einzelpersonen, die vom Unternehmen beschäftigt werden, um den Dienst zu erleichtern, den Dienst im Namen des Unternehmens bereitzustellen, Dienstleistungen im Zusammenhang mit dem Dienst zu erbringen oder das Unternehmen bei der Analyse der Nutzung des Dienstes zu unterstützen."
+      },
+      "usage_data": {
+        "term": "Nutzungsdaten",
+        "definition": "beziehen sich auf automatisch erfasste Daten, die entweder durch die Nutzung des Dienstes oder durch die Dienstinfrastruktur selbst generiert werden (z.B. die Dauer eines Seitenbesuchs)."
+      },
+      "website": {
+        "term": "Website",
+        "definition": "bezieht sich auf Innovation Consultancy - Atrineo AG, erreichbar unter https://atrineo.com"
+      },
+      "you": {
+        "term": "Sie",
+        "definition": "bezeichnet die Person, die auf den Dienst zugreift oder ihn nutzt, oder das Unternehmen oder eine andere juristische Person, in deren Namen diese Person auf den Dienst zugreift oder ihn nutzt."
+      }
+    },
+    "contact_us": "Kontaktieren Sie uns",
+    "contact_info": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns kontaktieren:<br><br>Per E-Mail: info@atrineo.com"
+  }
+}

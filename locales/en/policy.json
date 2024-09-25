@@ -1,0 +1,77 @@
+{
+  "impressum": {
+    "title": "Impressum",
+    "company_info": "Atrineo AG<br>Kaiserstraße 118<br>D - 76133 Karlsruhe<br><br>Phone: +49 721 920979-0<br>E-Mail: info@atrineo.com",
+    "board_members": "Authorized representatives of the board:<br>Dr. Rüdiger Werp, Dipl.-Ing. Nestor Rodriguez",
+    "registration_info": "Registration court: Amtsgericht Mannheim<br>Registration number: HRB 719548",
+    "vat_info": "VAT identification number according to § 27 a of the German VAT law:<br>DE 294547773",
+    "responsible_content": "Responsible for content according to § 55 Abs. 2 RStV:<br>Dr. Rüdiger Werp, Dipl.-Ing. Nestor Rodriguez (address as above)",
+    "legal_notice_title": "Legal Notice",
+    "legal_notice_1": "With regard to the technical properties of the Internet, no guarantee can be given for the authenticity, correctness and completeness of the information made available on the Internet. No guarantee is also given for the availability or operation of this website and its contents.",
+    "legal_notice_2": "Any liability for direct, indirect or other damages, regardless of their causes, arising from the use or non-availability of the data and information on this homepage is excluded to the extent legally permissible.",
+    "legal_notice_3": "Our offer contains links to external third-party websites over whose content we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking.",
+    "legal_notice_4": "The content of this website is protected by copyright. Links to our website are welcome!"
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: {date}",
+    "introduction": "This privacy policy describes our policies and procedures on the collection, use and disclosure of Your information when You use the service and tells You about your privacy rights and how the law protects You.<br><br>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this privacy policy.",
+    "interpretation_and_definitions": "Interpretation and Definitions",
+    "interpretation": "Interpretation",
+    "interpretation_text": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
+    "definitions": "Definitions",
+    "definitions_intro": "For the purposes of this Privacy Policy:",
+    "definitions_list": {
+      "account": {
+        "term": "Account",
+        "definition": "means a unique account created for You to access our Service or parts of our Service."
+      },
+      "affiliate": {
+        "term": "Affiliate",
+        "definition": "means an entity that controls, is controlled by or is under common control with a party, where \"control\" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority."
+      },
+      "company": {
+        "term": "Company",
+        "definition": "(referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Atrineo AG, Kaiserstrasse 118, 76133 - Karlsruhe."
+      },
+      "cookies": {
+        "term": "Cookies",
+        "definition": "are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
+      },
+      "country": {
+        "term": "Country",
+        "definition": "refers to Germany"
+      },
+      "device": {
+        "term": "Device",
+        "definition": "means any device that can access the Service such as a computer, a cellphone or a digital tablet."
+      },
+      "personal_data": {
+        "term": "Personal Data",
+        "definition": "is any information that relates to an identified or identifiable individual."
+      },
+      "service": {
+        "term": "Service",
+        "definition": "refers to the Website."
+      },
+      "service_provider": {
+        "term": "Service Provider",
+        "definition": "means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
+      },
+      "usage_data": {
+        "term": "Usage Data",
+        "definition": "refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
+      },
+      "website": {
+        "term": "Website",
+        "definition": "refers to Innovation Consultancy - Atrineo AG, accessible from https://atrineo.com"
+      },
+      "you": {
+        "term": "You",
+        "definition": "means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+      }
+    },
+    "contact_us": "Contact Us",
+    "contact_info": "If you have any questions about this Privacy Policy, You can contact us:<br><br>By email: info@atrineo.com"
+  }
+}

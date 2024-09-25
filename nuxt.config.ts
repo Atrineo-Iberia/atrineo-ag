@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
-    '@nuxt/image'
+    '@nuxt/image',
   ],
   i18n: {
     locales: ['de', 'en'],

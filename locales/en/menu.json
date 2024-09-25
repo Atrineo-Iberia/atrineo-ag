@@ -1,7 +1,9 @@
 {
-  "home": "Home",
-  "services": "Services",
-  "about": "About",
-  "news": "News",
-  "contact": "Contact"
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "news": "News",
+    "contact": "Contact"
+  }
 }

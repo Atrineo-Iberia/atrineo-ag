@@ -3,27 +3,27 @@
     <ul class="font-bold text-lg flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12">
       <li>
         <NuxtLink to="/" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-          {{ $t('home') }}
+          {{ $t('menu.home') }}
         </NuxtLink>
       </li>
       <li>
         <NuxtLink to="/services" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-          {{ $t('services') }}
+          {{ $t('menu.services') }}
         </NuxtLink>
       </li>
       <li>
         <NuxtLink to="/about" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-          {{ $t('about') }}
+          {{ $t('menu.about') }}
         </NuxtLink>
       </li>
       <li>
         <NuxtLink to="/news" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-          {{ $t('news') }}
+          {{ $t('menu.news') }}
         </NuxtLink>
       </li>
       <li>
         <NuxtLink to="/contact" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-          {{ $t('contact') }}
+          {{ $t('menu.contact') }}
         </NuxtLink>
       </li>
     </ul>
