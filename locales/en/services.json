@@ -1,0 +1,39 @@
+{
+  "our_services": "Our Services",
+  "services": {
+    "innovation_management": "Innovation Management",
+    "innovation_management_details": {
+      "development_implementation": "Development and Implementation",
+      "development_implementation_desc": "Crafting and executing innovation strategies to meet changing industry demands.",
+      "cooperation_networking": "Cooperation and Networking",
+      "cooperation_networking_desc": "Facilitating multi-actor cooperation to bring research into practical application.",
+      "market_analysis": "Market Analysis",
+      "market_analysis_desc": "Conducting thorough market analyses to position new technologies optimally.",
+      "success_impact_analysis": "Success and Impact Analysis",
+      "success_impact_analysis_desc": "Measuring the success and impact of transfer activities."
+    },
+    "knowledge_transfer": "Knowledge Transfer",
+    "knowledge_transfer_details": {
+      "training_workshops": "Training and Workshops",
+      "training_workshops_desc": "Customized training sessions and workshops designed to equip your team with the latest knowledge and skills.",
+      "strategic_planning": "Strategic Planning",
+      "strategic_planning_desc": "Crafting strategies to effectively manage and disseminate knowledge within your organization.",
+      "knowledge_management_systems": "Knowledge Management Systems",
+      "knowledge_management_systems_desc": "Implementing advanced systems to capture, store, and share critical information.",
+      "identification_evaluation_transfer_potentials": "Identification and Evaluation of Transfer Potentials",
+      "identification_evaluation_transfer_potentials_desc": "Screening and market analysis to identify and evaluate transfer potentials."
+    },
+    "technology_transfer": "Technology Transfer",
+    "technology_transfer_details": {
+      "innovation_scouting": "Innovation Scouting",
+      "innovation_scouting_desc": "Identifying cutting-edge technologies that can propel your business forward.",
+      "technology_assessment": "Technology Assessment",
+      "technology_assessment_desc": "Evaluating the feasibility and potential impact of new technologies.",
+      "licensing_ip_management": "Licensing and IP Management",
+      "licensing_ip_management_desc": "Navigating the complexities of intellectual property to maximize value and ensure compliance.",
+      "research_related_spin_offs": "Research-Related Spin-Offs",
+      "research_related_spin_offs_desc": "Assisting in planning, foundation, market entry, and growth of research-related spin-offs."
+    }
+  },
+  "complete_services": "Our complete services"
+}

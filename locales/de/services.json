@@ -1,0 +1,39 @@
+{
+  "our_services": "Unsere Dienstleistungen",
+  "services": {
+    "innovation_management": "Innovationsmanagement",
+    "innovation_management_details": {
+      "development_implementation": "Entwicklung und Implementierung",
+      "development_implementation_desc": "Entwicklung und Umsetzung von Innovationsstrategien zur Erfüllung der sich ändernden Branchenanforderungen.",
+      "cooperation_networking": "Kooperation und Vernetzung",
+      "cooperation_networking_desc": "Erleichterung der Zusammenarbeit mehrerer Akteure, um Forschung in die Praxis umzusetzen.",
+      "market_analysis": "Marktanalyse",
+      "market_analysis_desc": "Durchführung gründlicher Marktanalysen zur optimalen Positionierung neuer Technologien.",
+      "success_impact_analysis": "Erfolgs- und Wirkungsanalyse",
+      "success_impact_analysis_desc": "Messung des Erfolgs und der Auswirkungen von Transferaktivitäten."
+    },
+    "knowledge_transfer": "Wissenstransfer",
+    "knowledge_transfer_details": {
+      "training_workshops": "Schulungen und Workshops",
+      "training_workshops_desc": "Maßgeschneiderte Schulungen und Workshops, die darauf abzielen, Ihr Team mit dem neuesten Wissen und den neuesten Fähigkeiten auszustatten.",
+      "strategic_planning": "Strategische Planung",
+      "strategic_planning_desc": "Entwicklung von Strategien zur effektiven Verwaltung und Verbreitung von Wissen innerhalb Ihrer Organisation.",
+      "knowledge_management_systems": "Wissensmanagementsysteme",
+      "knowledge_management_systems_desc": "Implementierung fortschrittlicher Systeme zur Erfassung, Speicherung und Weitergabe kritischer Informationen.",
+      "identification_evaluation_transfer_potentials": "Identifizierung und Bewertung von Transferpotenzialen",
+      "identification_evaluation_transfer_potentials_desc": "Screening und Marktanalyse zur Identifizierung und Bewertung von Transferpotenzialen."
+    },
+    "technology_transfer": "Technologietransfer",
+    "technology_transfer_details": {
+      "innovation_scouting": "Innovationsscouting",
+      "innovation_scouting_desc": "Identifizierung von Spitzentechnologien, die Ihr Unternehmen voranbringen können.",
+      "technology_assessment": "Technologiebewertung",
+      "technology_assessment_desc": "Bewertung der Machbarkeit und des potenziellen Einflusses neuer Technologien.",
+      "licensing_ip_management": "Lizenzierung und IP-Management",
+      "licensing_ip_management_desc": "Navigieren durch die Komplexität des geistigen Eigentums, um den Wert zu maximieren und die Einhaltung sicherzustellen.",
+      "research_related_spin_offs": "Forschungsbezogene Spin-Offs",
+      "research_related_spin_offs_desc": "Unterstützung bei Planung, Gründung, Markteintritt und Wachstum forschungsbezogener Spin-Offs."
+    }
+  },
+  "complete_services": "Unsere vollständigen Dienstleistungen"
+}
