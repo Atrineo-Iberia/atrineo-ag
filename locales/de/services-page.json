@@ -1,0 +1,23 @@
+{
+  "knowledge_transfer": {
+    "title": "Wissenstransfer",
+    "tabs": {
+      "development": {
+        "title": "Entwicklung und Umsetzung",
+        "content": "Wir unterstützen bei der Entwicklung und Umsetzung von Wissenstransferstrategien, die auf die Bedürfnisse Ihrer Organisation zugeschnitten sind. Unser Ansatz stellt sicher, dass wertvolle Erkenntnisse und Innovationen effektiv zwischen Abteilungen und Teams geteilt werden."
+      },
+      "cooperation": {
+        "title": "Kooperation und Vernetzung",
+        "content": "Wir fördern die Zusammenarbeit zwischen Wissenschaft und Industrie und schaffen wertvolle Netzwerke, die Innovation fördern. Unsere Networking-Events und Partnerschaften helfen, die Lücke zwischen Forschung und praktischer Anwendung zu schließen."
+      },
+      "market_analysis": {
+        "title": "Marktanalyse",
+        "content": "Unsere umfassenden Marktanalyse-Dienstleistungen helfen Ihnen, die potenzielle Auswirkung Ihrer Innovationen zu verstehen. Wir identifizieren Markttrends, bewerten den Wettbewerb und liefern Erkenntnisse zur Steuerung Ihrer Wissenstransferstrategien."
+      },
+      "success_impact": {
+        "title": "Erfolgs- und Wirkungsanalyse",
+        "content": "Viele Unternehmen kämpfen damit, erfolgreiche Innovations- und Transferaktivitäten sicherzustellen und riskieren verpasste Chancen und verschwendete Investitionen. Wir bieten umfassende Erfolgs- und Wirkungsanalysen und bewerten Ihre Innovationsstrategien. Unsere detaillierten Bewertungen identifizieren, was funktioniert, ermöglichen kontinuierliche Verbesserungen und stellen sicher, dass Ihre Investitionen die gewünschten Ergebnisse erzielen."
+      }
+    }
+  }
+}

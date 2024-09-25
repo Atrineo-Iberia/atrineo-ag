@@ -1,3 +1,6 @@
 {
-  "hero": "Identifizieren, entwickeln und Innovationen und Transferpotenziale freisetzen"
+  "hero": {
+    "home": "Identifizieren, entwickeln und Innovationen und Transferpotenziale freisetzen",
+    "services": "Wir beschleunigen Transformation und Wirkung"
+  } 
 }

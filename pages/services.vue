@@ -1,31 +1,53 @@
 <template>
-	<div class="container mx-auto px-4 py-16">
-		<h1 class="text-4xl font-bold mb-8">About Atrineo Iberia</h1>
-		<section class="mb-12">
-			<h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
-			<p class="text-lg">
-				Atrineo Iberia is dedicated to providing innovative solutions in the field of [your specific area]. We strive to [brief mission statement].
-			</p>
-		</section>
-		<section class="mb-12">
-			<h2 class="text-2xl font-semibold mb-4">Our Values</h2>
-			<ul class="list-disc list-inside text-lg">
-				<li>Innovation</li>
-				<li>Integrity</li>
-				<li>Collaboration</li>
-				<li>Excellence</li>
-			</ul>
-		</section>
-		<section>
-			<h2 class="text-2xl font-semibold mb-4">Our Team</h2>
-			<p class="text-lg">
-				Our team of experts brings together diverse skills and experiences to deliver exceptional results for our clients.
-			</p>
-			<!-- You can add team member components or more details here -->
-		</section>
+	<div>
+		<HeroSection
+			:title="$t('hero.services')"
+			:image="'/images/pexels-2.jpg'"
+			:parallax="true"
+		/>
+		
+    <div class="container mx-auto px-4 py-16">
+      <section class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">{{ $t('knowledge_transfer.title') }}</h2>
+        
+        <div class="mb-6">
+          <div class="flex border-b">
+            <button 
+              v-for="tab in tabs" 
+              :key="tab.id"
+              @click="activeTab = tab.id"
+              :class="['px-4 py-2 font-semibold', activeTab === tab.id ? 'border-b-2 border-blue-500' : '']"
+            >
+              {{ $t(`knowledge_transfer.tabs.${tab.id}.title`) }}
+            </button>
+          </div>
+        </div>
+        
+        <div v-for="tab in tabs" :key="tab.id" v-show="activeTab === tab.id" class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-4 md:mb-0 md:pr-4">
+            <img :src="tab.image" :alt="$t(`knowledge_transfer.tabs.${tab.id}.title`)" class="w-full h-auto rounded-lg shadow-lg">
+          </div>
+          <div class="md:w-1/2 md:pl-4">
+            <p v-html="$t(`knowledge_transfer.tabs.${tab.id}.content`)"></p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Otras secciones... -->
+    </div>
 	</div>
 </template>
 
 <script setup>
-// You can add any necessary imports or logic here
+
+const tabs = [
+  { id: 'development', image: '/images/development.jpg' },
+  { id: 'cooperation', image: '/images/cooperation.jpg' },
+  { id: 'market_analysis', image: '/images/market-analysis.jpg' },
+  { id: 'success_impact', image: '/images/success-impact.jpg' },
+]
+
+const activeTab = ref('development')
 </script>
+
+

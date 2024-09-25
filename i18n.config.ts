@@ -14,6 +14,8 @@ import footerEN from './locales/en/footer.json'
 import footerDE from './locales/de/footer.json'
 import policyEN from './locales/en/policy.json'
 import policyDE from './locales/de/policy.json'
+import servicesPageEN from './locales/en/services-page.json'
+import servicesPageDE from './locales/de/services-page.json'
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -27,7 +29,8 @@ export default defineI18nConfig(() => ({
       ...achievementsEN,
       ...newsEN,
       ...footerEN,
-      ...policyEN
+      ...policyEN,
+      ...servicesPageEN
     },
     de: {
       ...menuDE,
@@ -37,7 +40,8 @@ export default defineI18nConfig(() => ({
       ...achievementsDE,
       ...newsDE,
       ...footerDE,
-      ...policyDE
+      ...policyDE,
+      ...servicesPageDE
     }
   }
 }))

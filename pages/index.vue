@@ -1,6 +1,10 @@
 <template>
   <div>
-    <HeroSection />
+    <HeroSection 
+      :title="$t('hero.home')" 
+      :image="'/images/hero-section.webp'" 
+      :parallax="true" 
+    />
     <WhoWeAre />  
     <OurServices />
     <Industries />

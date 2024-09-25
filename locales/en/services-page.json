@@ -1,0 +1,23 @@
+{
+  "knowledge_transfer": {
+    "title": "Knowledge Transfer",
+    "tabs": {
+      "development": {
+        "title": "Development and Implementation",
+        "content": "We assist in developing and implementing knowledge transfer strategies tailored to your organization's needs. Our approach ensures that valuable insights and innovations are effectively shared across departments and teams."
+      },
+      "cooperation": {
+        "title": "Cooperation and Networking",
+        "content": "We facilitate cooperation between academia and industry, creating valuable networks that foster innovation. Our networking events and partnerships help bridge the gap between research and practical application."
+      },
+      "market_analysis": {
+        "title": "Market Analysis",
+        "content": "Our comprehensive market analysis services help you understand the potential impact of your innovations. We identify market trends, assess competition, and provide insights to guide your knowledge transfer strategies."
+      },
+      "success_impact": {
+        "title": "Success and Impact Analysis",
+        "content": "Many companies struggle to ensure successful innovation and transfer activities, risking missed opportunities and wasted investments. We provide comprehensive Success and Impact Analysis, evaluating your innovation strategies. Our detailed assessments identify what works, enabling continuous improvement and ensuring your investments achieve desired outcomes."
+      }
+    }
+  }
+}
