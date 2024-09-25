@@ -27,7 +27,7 @@
           <ul>
             <li><NuxtLink to="/" class="hover:underline">{{ $t('footer.home') }}</NuxtLink></li>
             <li><NuxtLink to="/services" class="hover:underline">{{ $t('footer.services') }}</NuxtLink></li>
-            <li><NuxtLink to="/company" class="hover:underline">{{ $t('footer.company') }}</NuxtLink></li>
+            <li><NuxtLink to="/about" class="hover:underline">{{ $t('footer.company') }}</NuxtLink></li>
             <li><NuxtLink to="/news" class="hover:underline">{{ $t('footer.news') }}</NuxtLink></li>
             <li><NuxtLink to="/contact" class="hover:underline">{{ $t('footer.contact') }}</NuxtLink></li>
           </ul>
