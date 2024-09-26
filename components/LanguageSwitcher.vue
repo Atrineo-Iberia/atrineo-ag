@@ -1,11 +1,4 @@
 <template>
-  <NuxtLink 
-    :to="switchLocalePath(currentLocale)"
-    class="flex items-center bg-transparent px-3 py-2 rounded-md"
-  >
-    <NuxtImg :src="getFlagSrc(currentLocale)" width="20" class="mr-2" />
-    {{ currentLocale.toUpperCase() }}
-  </NuxtLink>
   <ul class="p-2">
     <li v-for="lang in languages" :key="lang.code">
         <button 
@@ -22,21 +15,12 @@
 
 <script setup>
 const { locale, setLocale } = useI18n()
-const switchLocalePath = useSwitchLocalePath()
-const currentLocale = ref(locale.value)
 
 const languages = [
   { code: 'de', name: 'Deutsch', flag: 'de.png' },
   { code: 'en', name: 'English', flag: 'uk.png' }
 ]
 
-const getFlagSrc = (code) => {
-  return languages.find(lang => lang.code === code)?.flag || 'espana.png'
-}
-
-watchEffect(() => {
-  currentLocale.value = locale.value
-})
 </script>
 
 <style scoped>
