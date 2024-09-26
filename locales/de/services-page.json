@@ -19,5 +19,44 @@
         "content": "Viele Unternehmen kämpfen damit, erfolgreiche Innovations- und Transferaktivitäten sicherzustellen und riskieren verpasste Chancen und verschwendete Investitionen. Wir bieten umfassende Erfolgs- und Wirkungsanalysen und bewerten Ihre Innovationsstrategien. Unsere detaillierten Bewertungen identifizieren, was funktioniert, ermöglichen kontinuierliche Verbesserungen und stellen sicher, dass Ihre Investitionen die gewünschten Ergebnisse erzielen."
       }
     }
+  },
+  "innovation_management": {
+    "title": "Innovationsmanagement",
+    "tabs": {
+      "training": {
+        "title": "Schulungen und Workshops",
+        "content": "Organisationen haben Schwierigkeiten, ihre Teams mit dem neuesten Branchenwissen auf dem Laufenden zu halten, was zu Ineffizienzen und Wettbewerbsnachteilen führt. Unsere maßgeschneiderten Schulungen und Workshops vermitteln die neuesten Fähigkeiten und Trends und steigern so Produktivität und Innovation. Dieser Service ist entscheidend, um einen Wettbewerbsvorteil zu behalten und sich an Marktveränderungen anzupassen."
+      },
+      "planning": {
+        "title": "Strategische Planung",
+        "content": "Viele Organisationen stehen vor Herausforderungen beim Management und der Weitergabe von Wissen, was zu verpassten Chancen und Ineffizienzen führt. Unser strategischer Planungsservice bietet maßgeschneiderte Lösungen zur Optimierung des Wissensmanagements und der Wissensvermittlung. Dies hilft sicherzustellen, dass kritische Informationen effizient geteilt werden, was Innovation und Entscheidungsfindung fördert. Es ist entscheidend für die Förderung einer starken Wissensaustauschkultur und den Antrieb des Erfolgs."
+      },
+      "identification": {
+        "title": "Identifikation und Bewertung von Transferpotenzialen",
+        "content": "Die Identifizierung und Bewertung von Transferpotenzialen kann schwierig sein und zu verpassten Wachstumschancen führen. Unser Screening- und Marktanalyseservice klärt realisierbare Möglichkeiten auf, ermöglicht fundierte Entscheidungen und eine effektive Ressourcennutzung. Dies ist entscheidend für die Maximierung des Innovations- und Wachstumspotenzials Ihrer Organisation."
+      }
+    }
+  },
+  "technology_transfer": {
+    "title": "Technologietransfer",
+    "tabs": {
+      "innovation": {
+        "title": "Innovation",
+        "content": "Unternehmen haben oft Schwierigkeiten, mit dem rasanten technologischen Wandel Schritt zu halten, was zu verpassten Chancen und schlechter Ressourcenallokation führt. Unser Innovation Scouting-Service identifiziert modernste Technologien, die mit Ihren Zielen übereinstimmen. Wir liefern Einblicke in vielversprechende Fortschritte und helfen Ihnen, wettbewerbsfähig zu bleiben und von aufkommenden Trends für nachhaltiges Wachstum zu profitieren."
+      },
+      "assessment": {
+        "title": "Technologiebewertung",
+        "content": "Die Bewertung neuer Technologien ist unsicher und führt oft zu kostspieligen Fehlern. Unser Technologiebewertungsservice evaluiert neue Technologien gründlich und liefert detaillierte Analysen und strategische Empfehlungen. Dies hilft Ihnen, fundierte Entscheidungen zu treffen, Risiken zu minimieren und positive Beiträge zu Ihren Geschäftszielen sicherzustellen."
+      },
+      "licensing": {
+        "title": "Lizenzierung und IP-Management",
+        "content": "Die Navigation durch die Komplexität des geistigen Eigentums (IP) kann entmutigend sein und zu rechtlichen und finanziellen Risiken führen. Unser Lizenzierungs- und IP-Management-Service vereinfacht IP-Prozesse, hilft bei der Sicherung und Verwaltung von Rechten, steigert den Wert und gewährleistet die Einhaltung von Vorschriften. Dieser Service schützt Ihre Innovationen und optimiert deren kommerzielles Potenzial, was Ihnen einen Wettbewerbsvorteil verschafft."
+      },
+      "spinoffs": {
+        "title": "Forschungsbezogene Ausgründungen",
+        "content": "Die Umwandlung von Forschung in erfolgreiche Unternehmen steht vor vielen Hürden und führt oft aufgrund mangelnder Strategie und Unterstützung zu Misserfolgen. Unser Service für forschungsbezogene Ausgründungen unterstützt Ihre Vorhaben von der Planung bis zum Wachstum. Wir bieten Strategien für jede Phase und stellen sicher, dass Ihre Ausgründungen erfolgreich sind. Dieser Service ist entscheidend für die Umwandlung von Forschung in florierende Unternehmen, die wirtschaftliche Auswirkungen haben und Innovationen in der Industrie fördern."
+      }
+    }
   }
+
 }

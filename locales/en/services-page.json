@@ -19,5 +19,43 @@
         "content": "Many companies struggle to ensure successful innovation and transfer activities, risking missed opportunities and wasted investments. We provide comprehensive Success and Impact Analysis, evaluating your innovation strategies. Our detailed assessments identify what works, enabling continuous improvement and ensuring your investments achieve desired outcomes."
       }
     }
+  },
+  "innovation_management": {
+    "title": "Innovation Management",
+    "tabs": {
+      "training": {
+        "title": "Training and Workshops",
+        "content": "Organisations struggle to keep teams updated with the latest industry knowledge, leading to inefficiencies and a competitive disadvantage. Our tailored training sessions and workshops provide the latest skills and trends, boosting productivity and innovation. This service is vital for maintaining a competitive edge and adapting to market changes."
+      },
+      "planning": {
+        "title": "Strategic Planning",
+        "content": "Many organisations face challenges in managing and sharing knowledge, resulting in missed opportunities and inefficiencies. Our strategic planning service provides custom solutions to streamline knowledge management and dissemination. This helps ensure critical information is shared efficiently, boosting innovation and decision-making. It's crucial for fostering a strong knowledge-sharing culture and driving success."
+      },
+      "identification": {
+        "title": "Identification and Evaluation of Transfer Potentials",
+        "content": "Identifying and evaluating transfer potentials can be difficult, leading to missed growth opportunities. Our screening and market analysis service clarifies viable opportunities, enabling informed decisions and effective resource use. This is crucial for maximizing your organization's innovation and growth potential."
+      }
+    }
+  },
+  "technology_transfer": {
+    "title": "Technology Transfer",
+    "tabs": {
+      "innovation": {
+        "title": "Innovation",
+        "content": "Businesses often struggle to keep up with rapid technological changes, leading to missed opportunities and poor resource allocation. Our Innovation Scouting service identifies cutting-edge technologies that align with your goals. We provide insights into promising advancements, helping you stay competitive and capitalise on emerging trends for sustained growth."
+      },
+      "assessment": {
+        "title": "Technology Assessment",
+        "content": "Evaluating new technologies is uncertain, often leading to costly mistakes. Our Technology Assessment service thoroughly evaluates new technologies, providing detailed analysis and strategic recommendations. This helps you make informed decisions, minimize risks, and ensure positive contributions to your business objectives."
+      },
+      "licensing": {
+        "title": "Licensing and IP Management",
+        "content": "Navigating intellectual property (IP) complexities can be daunting, leading to legal and financial risks. Our Licensing and IP Management service simplifies IP processes, helping secure and manage rights, enhance value, and ensure compliance. This service safeguards your innovations and optimizes their commercial potential, giving you a competitive edge."
+      },
+      "spinoffs": {
+        "title": "Research-Related Spin-offs",
+        "content": "Turning research into successful businesses faces many hurdles, often leading to failures due to lack of strategy and support. Our Research-Related Spin-Offs service supports your ventures from planning to growth. We provide strategies for every stage, ensuring your spin-offs succeed. This service is crucial for transforming research into thriving enterprises, driving economic impact, and fostering industry innovation."
+      }
+    }
   }
 }
