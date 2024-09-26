@@ -1,0 +1,30 @@
+{
+  "about": {
+    "history": {
+      "title": "Our History",
+      "description": "Founded in 2014 by Dr. Rüdiger Werp and Nestor Rodriguez, Atrineo AG was created with the vision of building a company dedicated to excellence. Drawing on their combined 40 years of expertise, they established Atrineo AG to drive technological innovation while prioritising customer satisfaction and ethical practices."
+    },
+    "founders": {
+      "title": "Our Founders",
+      "rudiger": {
+        "name": "Dr. Rüdiger Werp",
+        "description": "Rüdiger Werp has over 25 years of experience in knowledge and technology transfer from public research, including cooperations, services, licensing, IP sales, and start-ups. He is well-versed in the goals and structures of scientific institutions in Germany and Europe, with extensive expertise in creating strategies, systems, and processes for the transfer sector. Rüdiger excels in managing interactions between academic and non-academic innovators and is proficient in intellectual property and funding mechanisms. His specialty lies in transforming research results into sustainable business models and start-ups."
+      },
+      "nestor": {
+        "name": "Nestor Rodriguez",
+        "description": "Nestor Rodriguez has over 15 years of experience in commercializing technologies from public and private research. He excels in analyzing international markets, particularly through tailored primary data collection. His expertise in private equity and corporate strategy enhances his ability to develop and implement viable business models for new technologies. Nestor has been instrumental in structuring, establishing, and financing over ten start-ups. He is well-versed in the energy sector, understanding key players, current trends, and technological needs."
+      }
+    }
+  },
+  "locations": {
+    "title": "Our Locations",
+    "karlsruhe": {
+      "title": "Karlsruhe",
+      "description": "Since our inception in 2014, Atrineo AG has proudly called Karlsruhe home. This dynamic city, known for its rich history and innovative spirit, served as the perfect launchpad for our mission to advance knowledge and technology transfer. Starting from a small yet ambitious team, we have grown into a leading company that thrives on creativity and excellence."
+    },
+    "gc": {
+      "title": "Gran Canaria",
+      "description": "In 2024, Atrineo AG marked a significant milestone by expanding to Gran Canaria, our first international office. This vibrant island, renowned for its diverse culture and breathtaking landscapes, provides an inspiring environment for innovation and growth. The Gran Canaria office not only symbolizes our commitment to reaching new horizons but also strategically positions us to expand into new markets, particularly in the Iberian region."
+    }
+  }
+}
