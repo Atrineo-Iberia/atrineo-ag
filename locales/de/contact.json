@@ -1,0 +1,14 @@
+{
+  "contact": {
+    "getInTouch": "Kontaktieren Sie uns",
+    "writeToUs": {
+      "title": "Schreiben Sie uns",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "Ihre E-Mail",
+      "company": "Ihr Unternehmen",
+      "message": "Ihre Nachricht",
+      "sendButton": "Nachricht senden"
+    }
+  }
+}

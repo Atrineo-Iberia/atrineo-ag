@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="bg-gray-100">
 		<HeroSection
 		:title="$t('hero.about')"
 			:image="'/images/pexels-b.jpg'"

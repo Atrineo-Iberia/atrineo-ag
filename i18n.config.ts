@@ -18,6 +18,8 @@ import servicesPageEN from './locales/en/services-page.json'
 import servicesPageDE from './locales/de/services-page.json'
 import aboutEN from './locales/en/about.json'
 import aboutDE from './locales/de/about.json'
+import contactEN from './locales/en/contact.json'
+import contactDE from './locales/de/contact.json'
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -33,7 +35,8 @@ export default defineI18nConfig(() => ({
       ...footerEN,
       ...policyEN,
       ...servicesPageEN,
-      ...aboutEN
+      ...aboutEN,
+      ...contactEN
     },
     de: {
       ...menuDE,
@@ -45,7 +48,8 @@ export default defineI18nConfig(() => ({
       ...footerDE,
       ...policyDE,
       ...servicesPageDE,
-      ...aboutDE
+      ...aboutDE,
+      ...contactDE
     }
   }
 }))

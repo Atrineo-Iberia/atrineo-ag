@@ -1,0 +1,14 @@
+{
+  "contact": {
+    "getInTouch": "Get in Touch",
+    "writeToUs": {
+      "title": "Write to Us",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Your Email",
+      "company": "Your Company",
+      "message": "Your Message",
+      "sendButton": "Send Message"
+    }
+  }
+}
