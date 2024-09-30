@@ -1,5 +1,5 @@
 <template>
-  <ul class="p-2">
+  <ul class="p-2 flex">
     <li v-for="lang in languages" :key="lang.code">
         <button 
           @click="setLocale(lang.code)"

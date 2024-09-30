@@ -3,11 +3,18 @@
     <NuxtLink to="/" class="flex-shrink-0">
       <img src="/images/logo.png" alt="Logo" width="150" height="auto" class="ml-0 md:ml-6" />
     </NuxtLink>
-    <div class="flex items-center space-x-4">
+    
+    <!-- Versión móvil y tablet -->
+    <div class="flex items-center space-x-4 md:hidden">
       <LanguageSwitcher />
-      <NavMenu class="md:hidden" />
+      <NavMenu />
     </div>
-    <NavMenu class="hidden md:block" />
+    
+    <!-- Versión desktop -->
+    <div class="hidden md:flex md:items-center md:space-x-4">
+      <NavMenu />
+      <LanguageSwitcher />
+    </div>
   </div>
 </template>
 
