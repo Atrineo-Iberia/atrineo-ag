@@ -14,17 +14,17 @@
         "name": "Nestor Rodriguez",
         "description": "Nestor Rodriguez verfügt über mehr als 15 Jahre Erfahrung in der Kommerzialisierung von Technologien aus öffentlicher und privater Forschung. Er zeichnet sich durch die Analyse internationaler Märkte aus, insbesondere durch maßgeschneiderte Primärdatenerhebung. Seine Expertise in Private Equity und Unternehmensstrategie verstärkt seine Fähigkeit, tragfähige Geschäftsmodelle für neue Technologien zu entwickeln und umzusetzen. Nestor war maßgeblich an der Strukturierung, Gründung und Finanzierung von über zehn Start-ups beteiligt. Er ist bestens vertraut mit dem Energiesektor und versteht die wichtigsten Akteure, aktuelle Trends und technologischen Bedürfnisse."
       }
+    }
+  },
+  "locations": {
+    "title": "Unsere Standorte",
+    "karlsruhe": {
+      "title": "Karlsruhe",
+      "description": "Seit unserer Gründung im Jahr 2014 ist Karlsruhe stolz die Heimat von Atrineo AG. Diese dynamische Stadt, bekannt für ihre reiche Geschichte und ihren innovativen Geist, diente als perfektes Sprungbrett für unsere Mission, den Wissens- und Technologietransfer voranzutreiben. Ausgehend von einem kleinen, aber ambitionierten Team haben wir uns zu einem führenden Unternehmen entwickelt, das von Kreativität und Exzellenz lebt."
     },
-    "locations": {
-      "title": "Unsere Standorte",
-      "karlsruhe": {
-        "title": "Karlsruhe",
-        "description": "Seit unserer Gründung im Jahr 2014 ist Karlsruhe stolz die Heimat von Atrineo AG. Diese dynamische Stadt, bekannt für ihre reiche Geschichte und ihren innovativen Geist, diente als perfektes Sprungbrett für unsere Mission, den Wissens- und Technologietransfer voranzutreiben. Ausgehend von einem kleinen, aber ambitionierten Team haben wir uns zu einem führenden Unternehmen entwickelt, das von Kreativität und Exzellenz lebt."
-      },
-      "gc": {
-        "title": "Gran Canaria",
-        "description": "Im Jahr 2024 markierte Atrineo AG einen bedeutenden Meilenstein mit der Expansion nach Gran Canaria, unserem ersten internationalen Büro. Diese lebendige Insel, bekannt für ihre vielfältige Kultur und atemberaubende Landschaften, bietet ein inspirierendes Umfeld für Innovation und Wachstum. Das Büro in Gran Canaria symbolisiert nicht nur unser Engagement, neue Horizonte zu erreichen, sondern positioniert uns auch strategisch für die Expansion in neue Märkte, insbesondere in der iberischen Region."
-      }
+    "gc": {
+      "title": "Gran Canaria",
+      "description": "Im Jahr 2024 markierte Atrineo AG einen bedeutenden Meilenstein mit der Expansion nach Gran Canaria, unserem ersten internationalen Büro. Diese lebendige Insel, bekannt für ihre vielfältige Kultur und atemberaubende Landschaften, bietet ein inspirierendes Umfeld für Innovation und Wachstum. Das Büro in Gran Canaria symbolisiert nicht nur unser Engagement, neue Horizonte zu erreichen, sondern positioniert uns auch strategisch für die Expansion in neue Märkte, insbesondere in der iberischen Region."
     }
   }
 }

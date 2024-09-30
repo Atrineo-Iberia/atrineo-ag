@@ -11,7 +11,18 @@
       <section class="max-w-5xl mx-auto mb-16 bg-lime-200 py-16 px-32">
         <h2 class="text-3xl font-bold mb-6">{{ $t('knowledge_transfer.title') }}</h2>
         <div class="mb-6">
-          <div class="flex justify-evenly">
+          <div class="md:hidden space-y-2">
+            <div 
+              v-for="(tab, index) in section1Tabs" 
+              :key="index"
+              @click="activeTab1 = index"
+              class="px-4 py-2 font-semibold cursor-pointer border rounded"
+              :class="{'bg-blue-500 text-white': activeTab1 === index}"
+            >
+              {{ $t(tab.title) }}
+            </div>
+          </div>
+          <div class="hidden md:flex justify-evenly">
             <div 
               v-for="(tab, index) in section1Tabs" 
               :key="index"
@@ -43,7 +54,14 @@
       <section class="max-w-5xl mx-auto mb-16 bg-blue-200 py-16 px-32">
         <h2 class="text-3xl font-bold mb-6">{{ $t('innovation_management.title') }}</h2>
         <div class="mb-6">
-          <div class="flex justify-evenly">
+          <div class="md:hidden">
+            <select v-model="activeTab2" class="w-full p-2 border rounded">
+              <option v-for="(tab, index) in section2Tabs" :key="index" :value="index">
+                {{ $t(tab.title) }}
+              </option>
+            </select>
+          </div>
+          <div class="hidden md:flex justify-evenly">
             <div 
               v-for="(tab, index) in section2Tabs" 
               :key="index"
@@ -76,8 +94,9 @@
       <section class="max-w-5xl mx-auto mb-16 bg-blue-800 py-16 px-32 text-white">
         <h2 class="text-3xl font-bold mb-6">{{ $t('technology_transfer.title') }}</h2>
         <div class="mb-6">
-          <div class="flex justify-evenly">
-            <div 
+          <div class="overflow-x-auto">
+            <div class="flex whitespace-nowrap mb-6">
+              <div 
               v-for="(tab, index) in section3Tabs" 
               :key="index"
               @click="activeTab3 = index"
@@ -85,6 +104,7 @@
               :class="{'border-b-2 border-blue-500': activeTab3 === index}"
             >
               {{ $t(tab.title) }}
+              </div>
             </div>
           </div>
         </div>

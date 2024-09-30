@@ -1,7 +1,7 @@
 <template>
 	<div class="container mx-auto px-4 py-16">
 		<!-- Get in Touch Section -->
-		<section class="mb-16">
+		<section class="mb-16 bg-blue-60">
 			<h2 class="text-3xl font-bold mb-8">{{ $t('contact.getInTouch') }}</h2>
 			<div class="grid md:grid-cols-2 gap-8">
 				<div>

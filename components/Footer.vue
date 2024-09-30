@@ -1,56 +1,35 @@
 <template>
-  <footer class="py-12 flex justify-center items-center w-full ">
-    <div class="container w-full px-4 ml-40">
-      <!-- Logo -->
-      <div class="w-full md:w-1/4 mb-8 md:mb-0">
-        <img src="/images/logo.png" alt="Atrineo" class="h-12 mb-4" />
-      </div>
-      <div class="flex flex-wrap justify-between">
-        <!-- Contact -->
-        <div class="w-full md:w-1/4 mb-8 md:mb-0">
-          <h3 class="font-bold text-lg mb-4">{{ $t('footer.contact') }}</h3>
-          <p><a href="mailto:info@atrineo.com" class="hover:underline">info@atrineo.com</a></p>
-          <p><a href="tel:+49721920979" class="hover:underline">+49 721 9209 790</a></p>
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-center items-center md:items-end md:space-x-64">
+        <!-- Company Info -->
+        <div class="text-center mb-8 md:mb-0">
+          <img src="/images/atrineo_icon-removebg-preview.png" alt="Atrineo AG" class="h-20 mb-4 mx-auto footer-logo" />
+          <p>© {{ new Date().getFullYear() }} Atrineo AG.</p>
+          <p>{{ $t('footer.all_rights_reserved') }}.</p>
         </div>
 
-        <!-- Atrineo AG -->
-        <div class="w-full md:w-1/4 mb-8 md:mb-0">
-          <h3 class="font-bold text-lg mb-4">Atrineo AG</h3>
-          <p>Kaiserstraße 118</p>
-          <p>76133, Karlsruhe</p>
-          <p>Germany</p>
-        </div>
-
-        <!-- Navigation -->
-        <div class="w-full md:w-1/4 mb-8 md:mb-0">
-          <h3 class="font-bold text-lg mb-4">{{ $t('footer.navigation') }}</h3>
-          <ul>
-            <li><NuxtLink to="/" class="hover:underline">{{ $t('footer.home') }}</NuxtLink></li>
-            <li><NuxtLink to="/services" class="hover:underline">{{ $t('footer.services') }}</NuxtLink></li>
-            <li><NuxtLink to="/about" class="hover:underline">{{ $t('footer.company') }}</NuxtLink></li>
-            <li><NuxtLink to="/news" class="hover:underline">{{ $t('footer.news') }}</NuxtLink></li>
-            <li><NuxtLink to="/contact" class="hover:underline">{{ $t('footer.contact') }}</NuxtLink></li>
-          </ul>
-        </div>
-
-        <!-- Privacy and data -->
-        <div class="w-full md:w-1/4">
-          <h3 class="font-bold text-lg mb-4">{{ $t('footer.privacy_and_data') }}</h3>
-          <ul>
-            <li><NuxtLink to="/policy/impresum" class="hover:underline">{{ $t('footer.impressum') }}</NuxtLink></li>
-            <li><NuxtLink to="/policy/privacy-policy" class="hover:underline">{{ $t('footer.privacy_policy') }}</NuxtLink></li>
+        <!-- Quick Links -->
+        <div class="font-bold text-center ">
+          <ul class="space-y-2">
+            <li><NuxtLink to="/about" class="hover:text-gray-300">{{ $t('footer.about') }}</NuxtLink></li>
+            <li><NuxtLink to="/services" class="hover:text-gray-300">{{ $t('footer.services') }}</NuxtLink></li>
+            <li><NuxtLink to="/contact" class="hover:text-gray-300">{{ $t('footer.contact') }}</NuxtLink></li>
+            <li><NuxtLink to="/policy/privacy-policy" class="hover:text-gray-300">{{ $t('footer.privacy_policy') }}</NuxtLink></li>
           </ul>
         </div>
       </div>
+    </div>
 
+    <!-- Copyright -->
+    <div class="mt-8 text-center text-sm">
+      <p class="mt-2">{{ $t('footer.made_with') }} ❤️ {{ $t('footer.in_karlsruhe') }}</p>
     </div>
   </footer>
-  <!-- Copyright -->
-  <div class="my-6 text-center text-sm">
-    <p>© {{ new Date().getFullYear() }} Atrineo AG. {{ $t('footer.all_rights_reserved') }}. {{ $t('footer.made_with') }} ❤️ {{ $t('footer.in_karlsruhe') }} & Las Palmas de Gran Canaria</p>
-  </div>
 </template>
 
-<script setup>
-// No se necesita lógica adicional por ahora
-</script>
+<style scoped>
+.footer-logo {
+  filter: brightness(0) invert(1);
+}
+</style>

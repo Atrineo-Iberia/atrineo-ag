@@ -1,16 +1,15 @@
 {
   "footer": {
-    "contact": "Contact",
-    "navigation": "Navigation",
-    "privacy_and_data": "Privacy and data",
-    "home": "Home",
+    "company": "Atrineo AG",
+    "address": "Kaiserstraße 118, 76133 Karlsruhe, Germany",
+    "phone": "+49 721 9209 790",
+    "email": "info@atrineo.com",
+    "about": "About us",
     "services": "Services",
-    "company": "About us",
-    "news": "News",
-    "impressum": "Impressum",
+    "contact": "Contact",
     "privacy_policy": "Privacy Policy",
     "all_rights_reserved": "All rights reserved",
     "made_with": "Made with",
-    "in_karlsruhe": "in Karlsruhe"
+    "in_karlsruhe": "between Karlsruhe & Las Palmas de Gran Canaria"
   }
 }
