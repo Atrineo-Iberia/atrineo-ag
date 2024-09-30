@@ -8,8 +8,6 @@
 </template>
 
 <script setup>
-import { useNewsStore } from '~/stores/news'
-
 const newsStore = useNewsStore()
 const news = computed(() => newsStore.news)
 </script>

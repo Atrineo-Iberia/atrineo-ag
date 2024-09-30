@@ -16,8 +16,6 @@
 </template>
 
 <script setup>
-import { useNewsStore } from '~/stores/news'
-
 const route = useRoute()
 const newsStore = useNewsStore()
 
