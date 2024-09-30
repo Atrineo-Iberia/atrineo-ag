@@ -5,24 +5,42 @@ export const useNewsStore = defineStore('news', {
     news: [
       {
         id: 1,
-        title: 'Atrineo AG join forces with the Technical University of Kosice to kick-off IaaS 4DR',
+        titleKey: 'news.article1.title',
         slug: 'atrineo-ag-join-forces-with-technical-university-kosice',
-        excerpt: 'Atrineo AG is thrilled to announce its participation in the EU Interreg project IaaS4DR Interreg DTP, at the Technical University of...',
-        image: '/images/pexels-2.jpg'
+        excerptKey: 'news.article1.excerpt',
+        contentKey: 'news.article1.content',
+        image: '/images/pexels-2.jpg',
+        date: '2023-05-15',
+        authorKey: 'news.article1.author'
       },
       {
         id: 2,
-        title: 'Atrineo AG develops innovation projects and trains young scientists at Forschungszentrum Jülich',
+        titleKey: 'news.article2.title',
         slug: 'atrineo-ag-develops-innovation-projects-at-forschungszentrum-julich',
-        excerpt: 'Atrineo AG has developed the JUICE - Jülich Innovation and Entrepreneurship Certificate programme together with the Innovation Management...',
-        image: '/images/pexels-1.jpg'
+        excerptKey: 'news.article2.excerpt',
+        contentKey: 'news.article2.content',
+        image: '/images/pexels-1.jpg',
+        date: '2023-04-22',
+        authorKey: 'news.article2.author'
       },
-      // Añade más noticias aquí si es necesario
+      {
+        id: 3,
+        titleKey: 'news.article3.title',
+        slug: 'atrineo-ag-launches-ai-powered-platform-for-sustainable-urban-planning',
+        excerptKey: 'news.article3.excerpt',
+        contentKey: 'news.article3.content',
+        image: '/images/pexels-3.jpg',
+        date: '2023-06-10',
+        authorKey: 'news.article3.author'
+      }
     ]
   }),
   getters: {
     getLatestNews: (state) => (limit) => {
       return state.news.slice(0, limit)
+    },
+    getNewsBySlug: (state) => (slug) => {
+      return state.news.find(article => article.slug === slug)
     }
   }
 })
