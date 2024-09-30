@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-lime-300">
+  <section class="py-16 bg-gray-200">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-bold mb-12 text-center">{{ $t('news') }}</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">

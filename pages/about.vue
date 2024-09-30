@@ -47,22 +47,22 @@
 const founders = [
 	{
 		key: 'rudiger',
-		image: '/images/Rudiger_edited.jpg'
+		image: '/images/founders.jpg'
 	},
 	{
 		key: 'nestor',
-		image: '/images/Nestor_edited.jpg'
+		image: '/images/founders.jpg'
 	}
 ]
 
 const locations = [
 	{
 		key: 'karlsruhe',
-		image: '/images/Karlsruhe.jpeg'
+		image: '/images/pexels-karlsruhe.jpg'
 	},
 	{
 		key: 'gc',
-		image: '/images/ulpgc.jpeg'
+		image: '/images/pexels-university.jpg'
 	}
 ]
 </script>

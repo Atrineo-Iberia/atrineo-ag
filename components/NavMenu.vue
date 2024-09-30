@@ -8,9 +8,10 @@
         </svg>
       </button>
     </div>
-    <ul :class="['font-bold text-lg md:flex md:space-x-12', isMenuOpen ? 'block' : 'hidden']">
+    <ul :class="['font-bold text-lg md:flex md:space-x-12', isMenuOpen ? 'block' : 'hidden', 'md:relative']"
+        :style="isMenuOpen ? mobileMenuStyle : {}">
       <li v-for="(item, index) in menuItems" :key="index" class="py-2 md:py-0">
-        <NuxtLink :to="item.path" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+        <NuxtLink :to="item.path" @click="closeMenu" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
           {{ $t(item.translationKey) }}
         </NuxtLink>
       </li>
@@ -19,11 +20,29 @@
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
+
 const isMenuOpen = ref(false)
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
+
+const closeMenu = () => {
+  isMenuOpen.value = false
+}
+
+const mobileMenuStyle = computed(() => ({
+  position: 'fixed',
+  top: '60px', // Ajusta esto según la altura de tu header
+  right: '0',
+  backgroundColor: 'white',
+  width: '200px',
+  height: '250px',
+  zIndex: '50',
+  padding: '1rem',
+  boxShadow: '-2px 0 5px rgba(0,0,0,0.1)'
+}))
 
 const menuItems = [
   { path: '/', translationKey: 'menu.home' },

@@ -3,11 +3,10 @@
     <li v-for="lang in languages" :key="lang.code">
         <button 
           @click="setLocale(lang.code)"
-          class="flex items-center w-32 px-3 py-2 text-sm font-normal rounded-md hover:bg-gray-100"
+          class="flex items-center px-3 py-2 text-sm font-normal rounded-md hover:bg-gray-100"
           :class="locale === lang.code ? 'bg-gray-100' : ''"
         >
-          <img :src="lang.flag" width="20" class="mr-2" />
-          {{ lang.name }}
+          <img :src="lang.flag" width="20" />
         </button>
     </li>
   </ul>

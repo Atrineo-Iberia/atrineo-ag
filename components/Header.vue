@@ -1,15 +1,20 @@
 <template>
-  <div class="px-4 md:px-8 flex flex-col md:flex-row justify-between items-center">
-    <NuxtLink to="/">
-      <img src="/images/logo.png" alt="Logo" width="200" height="100%" class="ml-0 md:ml-6" />
+  <div class="px-4 md:px-8 flex flex-row justify-between items-center relative">
+    <NuxtLink to="/" class="flex-shrink-0">
+      <img src="/images/logo.png" alt="Logo" width="150" height="auto" class="ml-0 md:ml-6" />
     </NuxtLink>
-    <NavMenu />
-    <div class="flex items-center space-x-4 mt-4 md:mt-0">
+    <div class="flex items-center space-x-4">
       <LanguageSwitcher />
+      <NavMenu class="md:hidden" />
     </div>
+    <NavMenu class="hidden md:block" />
   </div>
 </template>
 
-<script setup>
-
-</script>
+<style scoped>
+@media (max-width: 768px) {
+  .flex-row {
+    flex-wrap: nowrap;
+  }
+}
+</style>
