@@ -1,7 +1,7 @@
 <template>
-  <div class="px-4 md:px-8 flex flex-row justify-between items-center relative">
+  <div class="px-4 md:px-8 flex flex-row justify-between items-center relative bg-gray-50">
     <NuxtLink to="/" class="flex-shrink-0">
-      <img src="/images/logo.png" alt="Logo" width="150" height="auto" class="ml-0 md:ml-6" />
+      <img src="/images/atrineo_icon-removebg-preview.png" alt="Logo" width="150" height="auto" class="ml-0 md:ml-6 my-4" />
     </NuxtLink>
     
     <!-- Versión móvil y tablet -->

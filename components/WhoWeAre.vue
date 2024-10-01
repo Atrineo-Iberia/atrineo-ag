@@ -1,6 +1,6 @@
 <template>
-  <section class="flex items-center bg-blue-950 h-96 w-full">
-    <div class="px-4 text-white">
+  <section class="flex items-center bg-gray-100 h-96 w-full">
+    <div class="px-4">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <h2 class="text-5xl font-bold mb-8 text-center">Who we are</h2>

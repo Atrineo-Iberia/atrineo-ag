@@ -1,8 +1,8 @@
 <template>
-	<div class="container mx-auto px-4 py-16">
+	<div>
 		<!-- Get in Touch Section -->
-		<section class="mb-16 bg-blue-60">
-			<h2 class="text-3xl font-bold mb-8">{{ $t('contact.getInTouch') }}</h2>
+		<section class="mb-16 bg-primary text-gray-100 py-16 px-32">
+			<h2 class="text-3xl font-bold mb-8 text-accent">{{ $t('contact.getInTouch') }}</h2>
 			<div class="grid md:grid-cols-2 gap-8">
 				<div>
 					<h3 class="text-xl font-semibold mb-4">Atrineo AG</h3>
@@ -24,9 +24,9 @@
 		</section>
 
 		<!-- Write to Us Section -->
-		<section>
-			<h2 class="text-3xl font-bold mb-8">{{ $t('contact.writeToUs.title') }}</h2>
+		<section class="container mx-auto py-16 px-12">
 			<form @submit.prevent="submitForm" class="max-w-2xl mx-auto">
+				<h2 class="text-3xl font-bold mb-8">{{ $t('contact.writeToUs.title') }}</h2>
 				<div class="grid md:grid-cols-2 gap-6">
 					<div>
 						<label for="firstName" class="block mb-2">{{ $t('contact.writeToUs.firstName') }}</label>
@@ -53,9 +53,11 @@
 					<!-- Aquí iría el componente de reCAPTCHA -->
 					<div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
 				</div>
-				<button type="submit" class="mt-6 bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">
-					{{ $t('contact.writeToUs.sendButton') }}
-				</button>
+				<div class="flex justify-end">
+					<button type="submit" class="mt-6 mb-12 bg-secondary text-white px-6 py-2 rounded hover:bg-secondary">
+						{{ $t('contact.writeToUs.sendButton') }}
+					</button>
+				</div>
 			</form>
 		</section>
 	</div>

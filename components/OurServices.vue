@@ -1,7 +1,7 @@
 <template>
-  <section class="py-16 bg-blue-900 text-white">
+  <section class="py-16 bg-primary text-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold mb-12 text-center">{{ $t('our_services') }}</h2>
+      <h2 class="text-4xl font-bold mb-12 text-center text-accent">{{ $t('our_services') }}</h2>
       
       <!-- Tab navigation -->
       <div class="flex justify-center mb-8">
@@ -25,7 +25,7 @@
             :key="index"
             :src="service.image" 
             :alt="$t(service.title)"
-            class="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-300 rounded-lg"
+            class="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-300"
             :class="activeTab === index ? 'opacity-100' : 'opacity-0'"
           />
         </div>
@@ -41,7 +41,7 @@
       </div>
 
       <div class="text-center mt-8">
-        <a href="/services" class="text-white underline">{{ $t('complete_services') }}</a>
+        <a href="/services" class="text-accent underline">{{ $t('complete_services') }}</a>
       </div>
     </div>
   </section>
